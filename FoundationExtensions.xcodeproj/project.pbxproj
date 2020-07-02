@@ -368,7 +368,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = "深圳可飞猪科技有限公司";
+				ORGANIZATIONNAME = "dancewithpeng@gmail.com";
 				TargetAttributes = {
 					0654CCBC2285480F00248D7D = {
 						CreatedOnToolsVersion = 10.2.1;
