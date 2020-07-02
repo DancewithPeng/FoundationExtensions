@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0654CCB8228545D300248D7D /* NSMutableAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0654CCB7228545D300248D7D /* NSMutableAttributedStringExtension.swift */; };
 		0654CCC02285481000248D7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0654CCBF2285481000248D7D /* AppDelegate.swift */; };
 		0654CCC52285481000248D7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0654CCC32285481000248D7D /* Main.storyboard */; };
 		0654CCC72285481100248D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0654CCC62285481100248D7D /* Assets.xcassets */; };
 		0654CCCA2285481100248D7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0654CCC82285481100248D7D /* LaunchScreen.storyboard */; };
-		0654CCD12285497500248D7D /* NSMutableAttributedStringExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0654CCD02285497400248D7D /* NSMutableAttributedStringExtensionViewController.swift */; };
 		0665E50A226F2B40000C4EC3 /* FoundationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0665E4FC226F2B40000C4EC3 /* FoundationExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06C149322270119A0065E207 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C149312270119A0065E207 /* DateExtension.swift */; };
 		6E1CD0E123CEAF3F006DEA89 /* PickResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1CD0E023CEAF3F006DEA89 /* PickResult.swift */; };
@@ -53,14 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0654CCB7228545D300248D7D /* NSMutableAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringExtension.swift; sourceTree = "<group>"; };
 		0654CCBD2285480F00248D7D /* FoundationExtensionsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundationExtensionsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0654CCBF2285481000248D7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0654CCC42285481000248D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0654CCC62285481100248D7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0654CCC92285481100248D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0654CCCB2285481100248D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0654CCD02285497400248D7D /* NSMutableAttributedStringExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringExtensionViewController.swift; sourceTree = "<group>"; };
 		0665E4F9226F2B40000C4EC3 /* FoundationExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoundationExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0665E4FC226F2B40000C4EC3 /* FoundationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundationExtensions.h; sourceTree = "<group>"; };
 		0665E4FD226F2B40000C4EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,14 +117,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0654CCB62285459A00248D7D /* NSMutableAttributedStringExtension */ = {
-			isa = PBXGroup;
-			children = (
-				0654CCB7228545D300248D7D /* NSMutableAttributedStringExtension.swift */,
-			);
-			path = NSMutableAttributedStringExtension;
-			sourceTree = "<group>";
-		};
 		0654CCBE2285481000248D7D /* FoundationExtensionsExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +133,6 @@
 		0654CCCF2285493C00248D7D /* Cases */ = {
 			isa = PBXGroup;
 			children = (
-				0654CCD02285497400248D7D /* NSMutableAttributedStringExtensionViewController.swift */,
 			);
 			path = Cases;
 			sourceTree = "<group>";
@@ -192,7 +179,6 @@
 				6EE8F0C122A78EA400FFB418 /* StringExtension */,
 				6E7FD5A522A110AB008CAAE0 /* FilePath */,
 				06C149302270112C0065E207 /* DateExtension */,
-				0654CCB62285459A00248D7D /* NSMutableAttributedStringExtension */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -439,7 +425,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0654CCC02285481000248D7D /* AppDelegate.swift in Sources */,
-				0654CCD12285497500248D7D /* NSMutableAttributedStringExtensionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +435,6 @@
 				6EF4212B23B6F89800C06618 /* StringOrNumber.swift in Sources */,
 				6E98168E22FBB3E300CBF61A /* BundleExtension.swift in Sources */,
 				6EE8F0C322A78EC800FFB418 /* StringExtension.swift in Sources */,
-				0654CCB8228545D300248D7D /* NSMutableAttributedStringExtension.swift in Sources */,
 				06C149322270119A0065E207 /* DateExtension.swift in Sources */,
 				6E1CD0E523CEAF6E006DEA89 /* ConfirmationResult.swift in Sources */,
 				6E1CD0E123CEAF3F006DEA89 /* PickResult.swift in Sources */,
