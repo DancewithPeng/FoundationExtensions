@@ -20,12 +20,12 @@ class BundleExtensionTests: XCTestCase {
     
     /// 测试实例属性
     func testInstanceBundleProvider() {
-        XCTAssertEqual(currentBundle.bundleIdentifier, "com.kefeizhu.FoundationExtensionsTests")
+        XCTAssertEqual(currentBundle.bundleIdentifier, "DP.iOS.Component.FoundationExtensionsTests")
     }
     
     /// 测试静态属性
     func testStaticBundleProvider() {
-        XCTAssertEqual(DateExtensionTests.currentBundle.bundleIdentifier, "com.kefeizhu.FoundationExtensionsTests")
+        XCTAssertEqual(DateExtensionTests.currentBundle.bundleIdentifier, "DP.iOS.Component.FoundationExtensionsTests")
     }
 
     /// 测试其他类
